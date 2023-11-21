@@ -1,0 +1,116 @@
+:root{
+  --clr-neon: hsl(317 100% 54%);
+  --clr-bg: ;
+}
+
+body{
+  background-color: var(--clr-bg);
+  font-family: "Balsamiq Sans", cursive;
+  height: 500px;
+}
+
+html{
+  margin-top: 0px;
+}
+
+.button {
+  height: 60px;
+  width: 50% ;
+  border-radius: 20px;
+  background: var(--clr-neon);
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 25px;
+  
+  margin-top: 30%;
+  
+  
+  
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px ,
+  0 0 25px var(--clr-neon), 0 0 50px var(--clr-neon),
+  0 0 100px var(--clr-neon), 0 0 200px var(--clr-neon);
+}
+
+.titulo {
+  font-size: 40px;
+  margin-bottom: 100px;
+  color: var(--clr-neon);
+  text-shadow: 0 0 5px var(--clr-neon),
+  0 0 25px var(--clr-neon), 0 0 50px var(--clr-neon);
+
+  padding-top: 30px ;
+}
+
+
+.flor {
+  background-color: rgb(131, 10, 10);
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 10px;
+  transform: rotate(50deg);
+
+  box-shadow: 0 0 5px rgb(185, 5, 5),
+  0 0 25px rgb(185, 5, 5);
+}
+
+.flor2 {
+  background-color: rgb(196, 26, 26);
+}
+
+.flor3 {
+  background-color: rgb(206, 28, 28);
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 25px;
+  position: absolute;
+  box-shadow: 0 0 5px rgb(221, 50, 50),
+  0 0 25px rgb(231, 81, 81);
+
+}
+
+.caule {
+  background-color: green;
+  height: 220px;
+  width: 20px;
+  margin: 0 auto;
+
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+
+  box-shadow: 0 0 5px rgb(0, 172, 0),
+  0 0 25px rgb(0, 172, 0), 0 0 50px rgb(0, 172, 0);
+
+  
+}
+
+.caule2 {
+  height: 10px;
+  width: 100px;
+  margin: -15% 50%;
+}
+
+.circle{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 235, 53);
+  border-radius: 10px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 26px;
+
+  box-shadow: 0 0 5px rgb(247, 230, 78),
+  0 0 15px rgb(247, 230, 78);
+  
+}
+
+.hide{
+  opacity: 0;
+  
+}
